@@ -21,6 +21,7 @@ public class RedisTest {
     @Test
     public void value() {
         redisTemplate.opsForValue().set("name", "徐华德");
+        redisTemplate.opsForValue().set("age", "44");
         System.out.println(redisTemplate.opsForValue().get("name"));
     }
 
