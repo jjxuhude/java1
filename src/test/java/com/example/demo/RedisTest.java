@@ -29,13 +29,16 @@ public class RedisTest {
     public void list(){
 
         ListOperations<String,User> listOps = redisTemplate.opsForList();
-        User user = new User("李四",18,new Date());
+        User user1 = new User("张三",28,new Date());
+        User user2 = new User("李四",18,new Date());
         ArrayList<User> userList = new ArrayList<>();
-        userList.add(user);
-        userList.add(user);
+        userList.add(user1);
+        userList.add(user2);
+        //写入redis
         listOps.leftPushAll("users",userList);
+        //控制台
         List<User> lists = listOps.range("users", 0, -1);
-        lists.forEach(x-> System.out.println(x.getName()+"=="+x.getAge()));
+        lists.forEach(user-> System.out.println(user.getName()+" "+user.getAge()+" "+user.getDate()));
 
     }
 
