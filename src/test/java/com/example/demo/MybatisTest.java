@@ -32,14 +32,14 @@ public class MybatisTest {
 
     @Test
     public void update(){
-        User user = new User(3,"user33",33);
+        User user = new User(11,"user33",33);
         int id = userService.update(user);
         System.out.println(id);
     }
 
     @Test
     public void del(){
-        int id = userService.del(3);
+        int id = userService.del(11);
         System.out.println(id);
     }
 
@@ -47,11 +47,11 @@ public class MybatisTest {
     public void list(){
         List<User>  list= userService.list();
 
-        System.out.println("for");
+        System.out.println("for:");
         for (User user:list) {
             System.out.println(user);
         }
-        System.out.println("foreach");
+        System.out.println("foreach:");
         list.forEach(user -> {
             System.out.println(user);
         });

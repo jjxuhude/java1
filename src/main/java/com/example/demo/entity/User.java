@@ -21,12 +21,19 @@ public class User {
                 '}';
     }
 
+    public User(Integer id, String name, Integer age, Boolean status, Date created_at) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.status = status;
+        this.created_at = created_at;
+    }
+
     public User(String name, Integer age) {
         this.name = name;
         this.age = age;
         this.status = true;
         this.created_at=new Date();
-
     }
 
     public User(Integer id, String name, Integer age) {
