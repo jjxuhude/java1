@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.demo.entity.User">
+        <id column="id" property="id" jdbcType="INTEGER"></id>
+        <result column="name" property="name" jdbcType="VARCHAR"></result>
+        <result column="age" property="age" jdbcType="INTEGER"></result>
+        <result column="status" property="status" jdbcType="BOOLEAN"></result>
+        <result column="created_at" property="created_at" jdbcType="DATE"></result>
+    </resultMap>
+
+    <insert id="add" parameterType="com.example.demo.entity.User">
+        insert into users(id,name,age,status,created_at)values(#{id},#{name},#{age},#{status},#{created_at})
+    </insert>
+
+    <select id="get" parameterType="java.lang.Integer" resultType="com.example.demo.entity.User">
+        select * from users where id = #{id}
+    </select>
+
+    <update id="update" parameterType="com.example.demo.entity.User">
+        update users set name=#{name},age=#{age} where id=#{id,jdbcType=INTEGER}
+    </update>
+
+    <delete id="del" parameterType="java.lang.Integer">
+        delete from users where id =#{id,jdbcType=INTEGER}
+    </delete>
+
+    <select id="list" resultMap="BaseResultMap">
+        select * from users
+    </select>
+
+
+</mapper>
