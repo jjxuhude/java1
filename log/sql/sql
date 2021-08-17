@@ -1,0 +1,28 @@
+2021-08-17 18:23:15.984 [http-nio-8081-exec-3] INFO  com.example.demo.controllers.UserController - id:1
+2021-08-17 18:23:15.985 [http-nio-8081-exec-3] DEBUG com.example.demo.mapper.UserMapper.get - ==>  Preparing: select * from users where id = ? 
+2021-08-17 18:23:15.985 [http-nio-8081-exec-3] DEBUG com.example.demo.mapper.UserMapper.get - ==> Parameters: 1(Integer)
+2021-08-17 18:23:15.986 [http-nio-8081-exec-3] DEBUG com.example.demo.mapper.UserMapper.get - <==      Total: 1
+2021-08-17 18:23:17.056 [http-nio-8081-exec-5] INFO  com.example.demo.controllers.UserController - id:1
+2021-08-17 18:23:17.056 [http-nio-8081-exec-5] DEBUG com.example.demo.mapper.UserMapper.get - ==>  Preparing: select * from users where id = ? 
+2021-08-17 18:23:17.056 [http-nio-8081-exec-5] DEBUG com.example.demo.mapper.UserMapper.get - ==> Parameters: 1(Integer)
+2021-08-17 18:23:17.057 [http-nio-8081-exec-5] DEBUG com.example.demo.mapper.UserMapper.get - <==      Total: 1
+2021-08-17 18:23:17.496 [http-nio-8081-exec-7] INFO  com.example.demo.controllers.UserController - id:1
+2021-08-17 18:23:17.496 [http-nio-8081-exec-7] DEBUG com.example.demo.mapper.UserMapper.get - ==>  Preparing: select * from users where id = ? 
+2021-08-17 18:23:17.497 [http-nio-8081-exec-7] DEBUG com.example.demo.mapper.UserMapper.get - ==> Parameters: 1(Integer)
+2021-08-17 18:23:17.497 [http-nio-8081-exec-7] DEBUG com.example.demo.mapper.UserMapper.get - <==      Total: 1
+2021-08-17 18:23:17.716 [http-nio-8081-exec-8] INFO  com.example.demo.controllers.UserController - id:1
+2021-08-17 18:23:17.716 [http-nio-8081-exec-8] DEBUG com.example.demo.mapper.UserMapper.get - ==>  Preparing: select * from users where id = ? 
+2021-08-17 18:23:17.716 [http-nio-8081-exec-8] DEBUG com.example.demo.mapper.UserMapper.get - ==> Parameters: 1(Integer)
+2021-08-17 18:23:17.717 [http-nio-8081-exec-8] DEBUG com.example.demo.mapper.UserMapper.get - <==      Total: 1
+2021-08-17 18:23:17.898 [http-nio-8081-exec-9] INFO  com.example.demo.controllers.UserController - id:1
+2021-08-17 18:23:17.899 [http-nio-8081-exec-9] DEBUG com.example.demo.mapper.UserMapper.get - ==>  Preparing: select * from users where id = ? 
+2021-08-17 18:23:17.899 [http-nio-8081-exec-9] DEBUG com.example.demo.mapper.UserMapper.get - ==> Parameters: 1(Integer)
+2021-08-17 18:23:17.900 [http-nio-8081-exec-9] DEBUG com.example.demo.mapper.UserMapper.get - <==      Total: 1
+2021-08-17 18:23:18.085 [http-nio-8081-exec-10] INFO  com.example.demo.controllers.UserController - id:1
+2021-08-17 18:23:18.085 [http-nio-8081-exec-10] DEBUG com.example.demo.mapper.UserMapper.get - ==>  Preparing: select * from users where id = ? 
+2021-08-17 18:23:18.085 [http-nio-8081-exec-10] DEBUG com.example.demo.mapper.UserMapper.get - ==> Parameters: 1(Integer)
+2021-08-17 18:23:18.086 [http-nio-8081-exec-10] DEBUG com.example.demo.mapper.UserMapper.get - <==      Total: 1
+2021-08-17 18:23:18.219 [http-nio-8081-exec-1] INFO  com.example.demo.controllers.UserController - id:1
+2021-08-17 18:23:18.219 [http-nio-8081-exec-1] DEBUG com.example.demo.mapper.UserMapper.get - ==>  Preparing: select * from users where id = ? 
+2021-08-17 18:23:18.219 [http-nio-8081-exec-1] DEBUG com.example.demo.mapper.UserMapper.get - ==> Parameters: 1(Integer)
+2021-08-17 18:23:18.220 [http-nio-8081-exec-1] DEBUG com.example.demo.mapper.UserMapper.get - <==      Total: 1

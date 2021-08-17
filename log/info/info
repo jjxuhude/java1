@@ -1,0 +1,28 @@
+id:1
+==>  Preparing: select * from users where id = ? 
+==> Parameters: 1(Integer)
+<==      Total: 1
+id:1
+==>  Preparing: select * from users where id = ? 
+==> Parameters: 1(Integer)
+<==      Total: 1
+id:1
+==>  Preparing: select * from users where id = ? 
+==> Parameters: 1(Integer)
+<==      Total: 1
+id:1
+==>  Preparing: select * from users where id = ? 
+==> Parameters: 1(Integer)
+<==      Total: 1
+id:1
+==>  Preparing: select * from users where id = ? 
+==> Parameters: 1(Integer)
+<==      Total: 1
+id:1
+==>  Preparing: select * from users where id = ? 
+==> Parameters: 1(Integer)
+<==      Total: 1
+id:1
+==>  Preparing: select * from users where id = ? 
+==> Parameters: 1(Integer)
+<==      Total: 1
